@@ -1,0 +1,149 @@
+/* Reset box model for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Styling for the body element */
+body {
+    background-image: url(trainbg.jpg); /* Set background image */
+    background-size: cover; /* Cover entire background */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    margin-left: 10%; /* Set left margin */
+    margin-right: 10%; /* Set right margin */
+}
+
+/* Styling for the header class */
+.hd {
+    text-align: center; /* Center align text */
+    padding: 10px; /* Add padding */
+    margin-left: 10%; /* Set left margin */
+    margin-right: 5%; /* Set right margin */
+    color: #cc0066; /* Set text color */
+    font-weight: bold; /* Set font weight */
+    font-size: 40px; /* Set font size */
+}
+
+/* Styling for the main class */
+.main {
+    border: 1px black solid; /* Set border */
+    background-color: #b7fdaa; /* Set background color */
+    border-radius: 10px; /* Set border radius */
+    text-align: center; /* Center align text */
+    margin-left: 33%; /* Set left margin */
+    margin-right: 33.3%; /* Set right margin */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Set bottom margin */
+    color: red; /* Set text color */
+    width: 600px; /* Set width */
+}
+
+/* Styling for the menu class */
+.menu {
+    border: 1px black solid; /* Set border */
+    border-radius: 10px; /* Set border radius */
+    background-color: white; /* Set background color */
+    color: green; /* Set text color */
+    font-weight: bold; /* Set font weight */
+    font-size: 14px; /* Set font size */
+    text-align: center; /* Center align text */
+    display: inline-block; /* Set as inline block */
+    margin: auto; /* Set margin */
+    padding: 5px; /* Add padding */
+    margin-top: 6px; /* Set top margin */
+}
+
+/* Styling for anchor on hover */
+a:hover {
+    color: red; /* Set text color on hover */
+}
+
+/* Styling for a normal link */
+a:link {
+    color: green; /* Set text color for link */
+    text-decoration: none; /* Remove underline from link */
+}
+
+/* Styling for the tab class */
+.tab {
+    border: 1px black solid; /* Set border */
+    border-radius: 15px; /* Set border radius */
+    background-color: #fef998; /* Set background color */
+    margin-left: 20%; /* Set left margin */
+    width: 800px; /* Set width */
+    color: black; /* Set text color */
+    font-weight: bold; /* Set font weight */
+    font-style: normal; /* Set font style */
+    text-align: center; /* Center align text */
+    font-size: 15px; /* Set font size */
+    margin-bottom: 10px; /* Set bottom margin */
+    padding: 10px; /* Add padding */
+    margin-top: 10px; /* Set top margin */
+}
+
+/* Styling for the yel class */
+.yel {
+    color: yellow; /* Set text color */
+}
+
+/* Styling for the red class */
+.red {
+    color: red; /* Set text color */
+}
+
+/* Styling for the green class */
+.green {
+    color: green; /* Set text color */
+}
+
+/* Styling for the brown class */
+.brown {
+    color: brown; /* Set text color */
+}
+
+/* Styling for the home class */
+.home {
+    border: 1px black solid; /* Set border */
+    border-radius: 5px; /* Set border radius */
+    background-color: #caffff; /* Set background color */
+    margin-left: -10%; /* Set left margin */
+    color: blue; /* Set text color */
+    font-style: italic; /* Set font style */
+    font-weight: bold; /* Set font weight */
+    text-align: center; /* Center align text */
+    height: 40px; /* Set height */
+    padding: auto; /* Set padding */
+    float: left; /* Set float to left */
+    clear: both; /* Clear both floats */
+    width: 160px; /* Set width */
+}
+
+/* Styling for the table element */
+table {
+    border: 2px solid black; /* Set border */
+    text-align: center; /* Center align text */
+    padding: 5px; /* Add padding */
+    width: 750px; /* Set width */
+}
+
+/* Styling for table row on hover */
+tr:hover {
+    background-color: #f5f5f5; /* Set background color on hover */
+    color: black; /* Set text color on hover */
+}
+
+/* Styling for table data cells */
+td {
+    padding: 5px; /* Add padding */
+    border: 1px solid black; /* Set border */
+}
+
+/* Styling for table header cells */
+th {
+    color: blue; /* Set text color */
+    font-size: 20px; /* Set font size */
+}
+
+/* Styling for the footer element */
+footer {
+    margin-top: 25%; /* Set top margin */
+}
